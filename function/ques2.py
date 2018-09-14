@@ -8,8 +8,7 @@ def perfect(n):
             print(n)
         
 
-#p=perfect(24)
-#print(p)
+
 for j in range(1,1001):
     
     perfect(j)
