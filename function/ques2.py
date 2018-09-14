@@ -4,13 +4,13 @@ def perfect(n):
     for i in range(1,n):
         if (n%i==0):
             sum=sum+i
-        if(sum==n):
-            return n
+    if(sum==n):
+            print(n)
         
 
 #p=perfect(24)
 #print(p)
 for j in range(1,1001):
     
-    print(perfect(j))
+    perfect(j)
         
