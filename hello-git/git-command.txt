@@ -1,0 +1,15 @@
+       COMMANDS                             DESCRIPTION
+git status	                     Check status
+git add [file-name.txt]	             Add a file to the staging area
+git add *	                     Add all files
+git commit -m "[commit message] "    Commit changes
+git branch	                     List branches (the asterisk denotes the current branch)
+git branch -a	                     List all branches (local and remote)
+git branch [branch name]	     Create a new branch
+git checkout -b [branch name]	     Create a new branch and switch to it
+git checkout [branch name]           Switch to a branch
+git checkout -	                     Switch to the branch last checked out
+git merge [branch name]	             Merge a branch into the active branch
+git merge [source branch] [target branch]	Merge a branch into a target branch
+git push origin [branch name]	     Push a branch to your remote repository
+git pull	                     Update local repository to the newest commit
