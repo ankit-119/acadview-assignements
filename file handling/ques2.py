@@ -1,0 +1,5 @@
+file1=open("file.txt","r")
+line=input("enter the string")
+n=file1.read()
+count=n.count(line)
+print(count)
