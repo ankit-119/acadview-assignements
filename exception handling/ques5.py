@@ -2,7 +2,7 @@
 try:
     import date
 except ImportError:
-    print("imort error")
+    print("import error")
     
  #VALUE ERROR   
 try:
